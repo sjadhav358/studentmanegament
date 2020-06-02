@@ -1,0 +1,31 @@
+#navbar {
+    height: 100vh;
+    padding: 5px;
+}
+.save{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    margin-left: 242px;
+    margin-top: 25px;
+}
+#navbar a
+{
+	color: whitesmoke;
+}
+#navbar a:hover
+{
+	background-color: white;
+	color: black;
+}
+
+@media only screen and (max-width: 500px) {
+  #navbar {
+     height: auto;
+		width: 50px;
+		font-weight: bolder;
+		font-size: 55px;
+	
+  }
+}
+
